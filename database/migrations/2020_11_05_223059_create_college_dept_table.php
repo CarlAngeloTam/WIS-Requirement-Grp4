@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCollageDeptTable extends Migration
+class CreateCollegeDeptTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateCollageDeptTable extends Migration
      */
     public function up()
     {
-        Schema::create('collages_dept', function (Blueprint $table) {
+        Schema::create('college_dept', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->timestamps();
@@ -27,6 +27,6 @@ class CreateCollageDeptTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('collages_dept');
+        Schema::dropIfExists('college_dept');
     }
 }

@@ -17,17 +17,23 @@
                 <a class="nav-link" href="http://fontenele.github.io/bootstrap-navbar-dropdowns/" target="_blank">Students</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="http://fontenele.github.io/bootstrap-navbar-dropdowns/" target="_blank">College Department</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link disabled" href="#"></a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Records</a>
+   
+            {{-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown 1</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown1">
                     <li class="dropdown-item" href="#"><a>College Department</a></li>
                     <li class="dropdown-item dropdown">
+                        
                         <a class="dropdown-toggle" id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown1.1</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown1-1">
                             <li class="dropdown-item" href="#"><a>Action 1.1</a></li>
                             <li class="dropdown-item dropdown">
+                                
                                 <a class="dropdown-toggle" id="dropdown1-1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown1.1.1</a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdown1-1-1">
                                     <li class="dropdown-item" href="#"><a>Action 1.1.1</a></li>
@@ -36,13 +42,15 @@
                         </ul>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
+            
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="dropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown2</a>
+                <a class="nav-link dropdown-toggle" id="dropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Records</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                    <li class="dropdown-item" href="#"><a>Action 2 A</a></li>
-                    <li class="dropdown-item" href="#"><a>Action 2 B</a></li>
-                    <li class="dropdown-item" href="#"><a>Action 2 C</a></li>
+                    <li class="dropdown-item" href="#"><a>Devices</a></li>
+                    <li class="dropdown-item" href="#"><a>Equipment</a></li>
+                    <li class="dropdown-item" href="#"><a>Books C</a></li>
+                    <li class="dropdown-item" href="#"><a>Locker C</a></li>
                     <li class="dropdown-item dropdown">
                         <a class="dropdown-toggle" id="dropdown2-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown2.1</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown2-1">
@@ -79,8 +87,8 @@
 
 <main role="main" class="container">
     <div class="jumbotron text-center">
-        <h1>Bootstrap 4 NavBar</h1>
-        <p class="lead text-info">NavBar with too many childs.</p>
+        <h1>Home Page</h1>
+        <p class="lead text-info">Welcome</p>
         <a href="http://fontenele.github.io/bootstrap-navbar-dropdowns/">Github</a>
     </div>
 </main>

@@ -1,11 +1,19 @@
-<!-- Footer -->
-<footer class="page-footer font-small blue">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: 	#7f948a;
+   color: black;
+   text-align: center;
+}
+</style>
+</head>
+<body>
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
+
+<div class="footer">
+  <p>© 2020 Copyright </p>
+</div>

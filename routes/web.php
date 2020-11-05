@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/hello', function() { 
-	return "Hello There!";
+	return "JC was here";
 });
 

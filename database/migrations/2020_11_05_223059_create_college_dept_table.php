@@ -16,6 +16,7 @@ class CreateCollegeDeptTable extends Migration
         Schema::create('college_dept', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('building');
             $table->timestamps();
         });
     }

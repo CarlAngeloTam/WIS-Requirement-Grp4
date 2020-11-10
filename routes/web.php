@@ -17,4 +17,24 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/college', 'CollegeController@index');
+
+// Index of CRUD
+Route::get('/colleges', 'CollegeController@index');
+
+// Create
+Route::get('/colleges/create', 'CollegeController@create');
+
+// Store data
+Route::post('/colleges', 'CollegeController@store');
+
+// Show - Read of CRUD 
+Route::get('/colleges/{college}', 'CollegeController@show');
+
+// Edit
+Route::get('/colleges/{college}/edit', 'CollegeController@edit');
+
+// Update 
+Route::put('/colleges/{college}', 'CollegeController@update');
+
+
+

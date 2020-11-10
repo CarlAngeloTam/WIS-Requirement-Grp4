@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+<<<<<<< HEAD
+Route::get('/college', 'CollegeController@index');
+=======
+Route::get('/hello', function() { 
+	return "JC was here";
+});
+
+>>>>>>> origin/Locker_migration

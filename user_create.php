@@ -14,21 +14,19 @@ class CreateUsersTable extends Migration
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->rememberToken();
-            $table->timestamps();
+            $table->string('name')->index();
+            $table->string('amount');
+            $table->string('rent_start_date');
+            $table->string('rent_end_date');
+            $table->string('facility');
+            $table->string('facilitator');
+            $table->string('student_id');
+            $table->timestamp('college_department_id')->nullable();
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
+
+    @return
     public function down()
     {
         Schema::dropIfExists('users');

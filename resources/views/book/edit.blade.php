@@ -50,6 +50,7 @@
     </form>
 
 </div>
+<h6><a href="/">Cancel</a></h6>
 </div>
 
 

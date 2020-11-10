@@ -4,6 +4,7 @@
 
 <h5>Borrow a books</h5>
 <p>Fill up form</p>
+
 <div class="container">	
 <div class="row">
     <form action='/books' method='POST'> 
@@ -45,10 +46,11 @@
 </div>
 
 <button class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
-
-    </form>
+</form>
 
 </div>
+<br>
+<h6><a href="/">Cancel</a></h6>
 </div>
 
 

@@ -4,10 +4,12 @@
 <h1>Library</h1>
 <div class="container">
 <h6><a href="/books/{{ $book->id }}/edit">Edit</a></h6>
-	<table class="table">
+	
 <br>
-<h5><center> {{ $book->Title }} </center></h5> <br>
+<h4><center> {{ $book->Title }} </center></h4> <br>
+<div class="row">
 
+<table class="table">
 <tbody>
 	<thead>
 			<tr>
@@ -22,7 +24,7 @@
 		</thead>
 
 <tr>
-		<td><a href="/books/{{ $book->id }}"> {{ $book->id }} </a></td>
+		<td> {{ $book->id }} </td>
 		<td> {{ $book->Title }} </td>
 		<td> {{ $book->Author }} </td>
 		<td> {{ $book->Category }} </td>
@@ -32,15 +34,20 @@
 	</tr>
 </tbody>
 </table>
-</div>
-
-<form action="/" method="GET">
-<h6><button class="btn" type="submit">Back</button></h6>
-</form>
 
 <form action="/books/{{ $book->id }}" method="POST"> @csrf @method('DELETE')
 <h6><button class="btn" type="submit">Remove</button></h6>
 </form>
+
+</div>
+
+
+
+<h6><a href="/">Cancel</a></h6>
+
+
+</div>
+
 
 
 @endsection

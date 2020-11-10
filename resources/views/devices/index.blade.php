@@ -4,11 +4,9 @@
     <table class="table">
         <thead>
             <tr>
-                <th>id</th>
-                <th>name</th>
-                <th>Date Borrowed</th>
-                <th>Date Returned</th>
-                <th>Items Borrowed</th>
+                <th>ID</th>
+                <th>Name of the Device</th>
+                <th>Serial Number</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -17,11 +15,20 @@
             <tr>
                  <td>{{ $device->id }}</td>
                 <td>{{ $device->name }}</td>
-                <td>{{ $device->date_borrowed }}</td>
-                <td>{{ $device->date_returned }}</td>
-                <td>{{ $device->items_borrowed }}</td>
-            
-                <td><a href="/devices/{{ $device->id }}">Show</a></td>
+                <td>{{ $device->serial_number }}</td>            
+                <td>
+                    <a href="/devices/{{ $device->id }}">Show</a>
+                |
+                    <a href="/devices/{{ $device->id }}/edit">Edit</a>
+                |
+                      <a href="/devices/{{ $device->id }}/delete">Delete</a>
+                    
+                   
+              {{-- <form method='POST' action='/devices/{{ $device->id }}'>
+                    @method('DELETE')
+                  @csrf
+                    <button type="submit">Delete </button> --}}
+                </td>
             </tr>
                 
             @endforeach

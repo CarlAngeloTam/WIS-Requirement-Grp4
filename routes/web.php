@@ -17,7 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hello', function() { 
-	return "JC was here";
-});
-
+Route::get('/devices','devicesController@index');
+Route::get('/devices/{device}','devicesController@show');

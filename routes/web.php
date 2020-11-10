@@ -18,10 +18,16 @@ Route::get('/', function () {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Route::get('/college', 'CollegeController@index');
 =======
+=======
+>>>>>>> master
 Route::get('/hello', function() { 
 	return "JC was here";
 });
 
+<<<<<<< HEAD
 >>>>>>> origin/Locker_migration
+=======
+>>>>>>> master

@@ -13,13 +13,16 @@ class CreateStudentTable extends Migration
      */
     public function up()
     {
-        Schema::create('student', function (Blueprint $table) {
+        Schema::create('students', function (Blueprint $table) {
             $table->id();
-            $table->string('fname');
-            $table->string('lname');
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->string('college_department');
             $table->timestamps();
         });
     }
+
+
 
     /**
      * Reverse the migrations.

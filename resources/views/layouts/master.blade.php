@@ -12,6 +12,7 @@
   </head>
   <body>
     @include('layouts.nav')
+    @yield('container')
 
     <!-- Optional JavaScript; choose one of the two! -->
 

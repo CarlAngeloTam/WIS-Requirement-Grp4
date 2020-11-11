@@ -18,4 +18,17 @@ Route::get('/', function () {
 });
 
 
+// Index of CRUD
+Route::get('/equipments', 'EquipmentsController@index');
+
+// Create
+Route::get('/equipments/create', 'EquipmentsController@create');
+
+// Show - Read of CRUD 
+Route::get('/equipments/{equipment}', 'EquipmentsController@show');
+
+// Store
+Route::post('/equipments', 'EquipmentsController@store');
+
+
 

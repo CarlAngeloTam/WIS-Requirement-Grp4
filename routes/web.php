@@ -45,6 +45,18 @@ Route::get('/borrowed_devices/{borrowed_device}/edit','borrowed_devicesControlle
 Route::put('/borrowed_devices/{borrowed_device}','borrowed_devicesController@update');//update
 
 Route::get('/borrowed_devices/{borrowed_device}/delete','borrowed_devicesController@delete');//Delete
+//STUDENTS
+Route::get('/students','StudentsController@index');//index
 
+Route::get('/students/create','StudentsController@create');//create
 
+Route::get('/students/{student}','StudentsController@show');//show
+
+Route::post('/students','StudentsController@store'); //store
+
+Route::get('/students/{student}/edit','StudentsController@edit');//edit
+
+Route::put('/students/{student}','StudentsController@update');//update
+
+Route::get('/students/{student}/delete','StudentsController@delete');//Delete
 

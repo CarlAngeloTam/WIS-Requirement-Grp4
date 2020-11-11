@@ -30,5 +30,14 @@ Route::get('/equipments/{equipment}', 'EquipmentsController@show');
 // Store
 Route::post('/equipments', 'EquipmentsController@store');
 
+// Edit
+Route::get('/equipments/{equipment}/edit', 'EquipmentsController@edit');
 
+// Update
+Route::put('/equipments/{equipment}', 'EquipmentsController@update');
+
+
+// Del
+// Route::delete('/equipments/{equipment}', 'EquipmentsController@delete');
+Route::get('/equipments/{equipment}/delete', 'EquipmentsController@delete');
 

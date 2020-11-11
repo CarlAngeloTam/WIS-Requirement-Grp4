@@ -17,10 +17,10 @@ class CreateEquipmentsTable extends Migration
             $table->id();
             $table->string('name');
             $table->integer('number_of_item');
-            $table->date('rent_start_date');
-            $table->date('rent_end_date');
             $table->string('facility');
             $table->string('facilitator');
+            $table->date('rent_start_date');
+            $table->date('rent_end_date');
             $table->timestamps();
         });
     }

@@ -31,7 +31,12 @@
 				
 				<td>
 					<a href="/equipments/{{ $equipment->id }}">Show</a>
-				</td>
+					|
+					<a href="/equipments/{{ $equipment->id }}/edit">Edit</a>
+					|
+					<a href="/equipments/{{ $equipment->id }}/delete">Delete</a>
+					
+				</td>  
 			</tr>
 			@endforeach
 		</tbody> 

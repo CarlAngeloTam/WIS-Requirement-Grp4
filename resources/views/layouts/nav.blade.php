@@ -17,7 +17,7 @@
                 <a class="nav-link" href="http://fontenele.github.io/bootstrap-navbar-dropdowns/" target="_blank">Students</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://fontenele.github.io/bootstrap-navbar-dropdowns/" target="_blank">College Department</a>
+                <a class="nav-link" href="/equipments" target="_blank">Equipments</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link disabled" href="#"></a>
@@ -48,7 +48,6 @@
                 <a class="nav-link dropdown-toggle" id="dropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Records</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown2">
                     <li class="dropdown-item" href="#"><a>Devices</a></li>
-                    <li class="dropdown-item" href="#"><a>Equipment</a></li>
                     <li class="dropdown-item" href="#"><a>Books C</a></li>
                     <li class="dropdown-item" href="#"><a>Locker C</a></li>
                     <li class="dropdown-item dropdown">
